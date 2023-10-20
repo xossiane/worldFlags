@@ -1,0 +1,3 @@
+.Theme__btn {
+  @apply flex-row;
+}
