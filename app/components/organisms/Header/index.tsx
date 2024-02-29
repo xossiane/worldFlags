@@ -2,7 +2,7 @@ import { HTMLAttributes } from "react";
 import DarkModeButton from "../../theme/DarkMode";
 
 type HeaderProps = HTMLAttributes<HTMLDivElement> & {
-  propertyTypeKey: propertyTypeKey;
+  propertyTypeKey: PropertyKey;
 };
 
 const Header = ({ propertyTypeKey }: HeaderProps) => {
